@@ -1,35 +1,21 @@
-body
-{
-    background-color: pink;
-    margin: 5px;
-	padding: 0;
-    font-family: sans-serif;
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: aquamarine;
+    width: auto;
+    margin: auto;
 }
-.caja
-{
+.titulo{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 2.5rem;
+}
+nav{
+    background-color: rgb(157, 177, 7);
+    height: 2rem;
     text-align: center;
     justify-content: center;
 }
-.titulo{
-    font-size: 5rem;
-    font-family: 'Bebas Neue', cursive;
-    color: palevioletred;
-
-}
-.texto{
-    position: relative;
+nav a{
+    margin-inline: 1rem;
     font-size: 1.5rem;
-    font-family: 'Rubik', sans-serif;
-}
-.video{
-    position: relative;
-    margin: auto;
-    width: 340px;
-    height: auto;
-}
-.img{
-    position: relative;
-    margin: auto;
-    width: 340px;
-    height: auto;
 }
