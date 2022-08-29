@@ -12,12 +12,14 @@ body
 }
 .titulo{
     font-size: 5rem;
+    font-family: 'Bebas Neue', cursive;
     color: palevioletred;
 
 }
 .texto{
     position: relative;
     font-size: 1.5rem;
+    font-family: 'Rubik', sans-serif;
 }
 .video{
     position: relative;
