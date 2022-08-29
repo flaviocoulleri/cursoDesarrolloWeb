@@ -1,0 +1,33 @@
+body
+{
+    background-color: pink;
+    margin: 5px;
+	padding: 0;
+    font-family: sans-serif;
+}
+.caja
+{
+    text-align: center;
+    justify-content: center;
+}
+.titulo{
+    font-size: 5rem;
+    color: palevioletred;
+
+}
+.texto{
+    position: relative;
+    font-size: 1.5rem;
+}
+.video{
+    position: relative;
+    margin: auto;
+    width: 340px;
+    height: auto;
+}
+.img{
+    position: relative;
+    margin: auto;
+    width: 340px;
+    height: auto;
+}
