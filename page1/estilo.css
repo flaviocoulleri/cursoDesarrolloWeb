@@ -1,21 +1,42 @@
+:root{
+    --blueblack: #021c1e;
+    --cadetblue: #004445;
+    --rain: #2c7873;
+    --greenery: #6fb98f;
+
+    --sky: #375e97;
+    --sunset: #fb6542;
+    --sunflower: #ffbb00;
+    --grass: #3f681c;
+}
 body{
     font-family: 'Rubik', sans-serif;
-    background-color: aquamarine;
+    background-color: var(--sky);
     width: auto;
     margin: auto;
+    
 }
 .titulo{
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     font-size: 2.5rem;
 }
-nav{
-    background-color: rgb(157, 177, 7);
-    height: 2rem;
-    text-align: center;
-    justify-content: center;
+.contenedor{
+    width: 60%;
+    margin: 0 auto;
 }
-nav a{
-    margin-inline: 1rem;
-    font-size: 1.5rem;
+.nav_bg{
+    background-color: var(--sunset);
+    text-align: center;
+}
+
+.navegacion_principal{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navegacion_principal a{
+    color: white;
+    text-decoration: none;
 }
